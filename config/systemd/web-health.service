@@ -1,0 +1,12 @@
+[Unit]
+Description=Check local HTTPS website health
+After=network.target
+
+[Service]
+Type=oneshot
+User=robin
+ExecStart=/usr/local/bin/check-web
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true

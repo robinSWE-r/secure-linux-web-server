@@ -1,0 +1,19 @@
+# Private keys and locally generated certificates
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+
+# Local environment files
+.env
+.env.*
+
+# Raw machine-specific evidence and logs
+docs/baseline-*.txt
+*.log
+
+# Editor and operating-system files
+*.swp
+*~
+.DS_Store
